@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./color-variables.scss";
+
+html,
+body {
+  background-color: $bg-primary;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: $text-primary;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.padauk-regular {
+  font-family: "Padauk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.padauk-bold {
+  font-family: "Padauk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

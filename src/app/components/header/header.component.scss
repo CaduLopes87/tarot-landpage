@@ -1,0 +1,40 @@
+@import '../../../color-variables.scss';
+
+.header {
+    display: flex;
+    margin-left: 5vw;
+}
+
+.text-header {
+    margin-top: 32px;
+    h1 {
+        width: 60vw;
+        font-size: 4.6em ;
+        font-weight: 300;
+    }
+
+    p {
+        width: 75vw;
+        font-size: 1.9rem;
+        margin: 0;
+    }
+
+    .link-phrase {
+        margin-left: 4vw;
+        margin-top: 108px;
+        font-size: 1.8rem;
+
+        a {
+            color: $text-primary;
+            text-decoration: none;
+            font-weight: 700;
+
+        }
+    }
+}
+
+.image-header {
+    width: 400px;
+    height: 500px;
+    background-color: $text-primary;
+}
