@@ -2,8 +2,10 @@
 
 .header {
     display: flex;
-    margin-bottom: 300px;
+    align-items: flex-start;
+    margin-bottom: 128px;
     margin-left: 4vw;
+    overflow: hidden;
 }
 
 .text-header {
@@ -17,7 +19,7 @@
     }
 
     p {
-        width: 75vw;
+        width: 72vw;
         font-size: 1.9rem;
         margin: 0;
     }
@@ -35,7 +37,6 @@
 }
 
 .image-header {
-    width: 400px;
-    height: 500px;
-    background-color: $text-primary;
+    transform: rotate(250deg);
+    margin-left: -108px;
 }
