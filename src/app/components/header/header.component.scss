@@ -2,7 +2,8 @@
 
 .header {
     display: flex;
-    margin-left: 5vw;
+    margin-bottom: 300px;
+    margin-left: 4vw;
 }
 
 .text-header {
@@ -11,6 +12,8 @@
         width: 60vw;
         font-size: 4.6em ;
         font-weight: 300;
+        line-height: 1.2;
+        margin-left: 8px;
     }
 
     p {
@@ -27,8 +30,6 @@
         a {
             color: $text-primary;
             text-decoration: none;
-            font-weight: 700;
-
         }
     }
 }
