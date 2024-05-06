@@ -1,6 +1,14 @@
 @import '../../../color-variables.scss';
 
-.presentation-details {
+.presentation-questions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
     color: $text-secondary;
     background-color: $bg-secondary;
+
+    padding: 32px 4vw;
+
+    gap: 64px;
 }
