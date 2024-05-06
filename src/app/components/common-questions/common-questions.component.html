@@ -1,0 +1,105 @@
+<section class="common-questions">
+  <h3>Dúvidas Frequentes</h3>
+
+  <div class="doubts-list">
+    <ul>
+
+      <li>
+        <button id="1" class="poppins-regular" (click)="toggleContent(1)">
+          @if(isVisible[1] === true){
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+          } @else {
+          <span class="material-symbols-outlined"> arrow_drop_down </span>
+          }
+
+          <span class="btn-text">Como funciona</span>
+        </button>
+
+        @if(isVisible[1]) {
+        <p>Abri Como funciona?</p>
+        }
+      </li>
+
+      <li>
+        <button id="2" class="poppins-regular" (click)="toggleContent(2)">
+          @if(isVisible[2] === true){
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+          } @else {
+          <span class="material-symbols-outlined"> arrow_drop_down </span>
+          }
+
+          <span class="btn-text">Formas de Pagamento</span>
+        </button>
+
+        @if(isVisible[2]) {
+        <p>Abri Formas de Pagamento</p>
+        }
+      </li>
+      
+      <li>
+        <button id="3" class="poppins-regular" (click)="toggleContent(3)">
+          @if(isVisible[3] === true){
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+          } @else {
+          <span class="material-symbols-outlined"> arrow_drop_down </span>
+          }
+
+          <span class="btn-text">Dados Necessários</span>
+        </button>
+
+        @if(isVisible[3]) {
+        <p>Abri Dados Necessários</p>
+        }
+      </li>
+      
+      <li>
+        <button id="4" class="poppins-regular" (click)="toggleContent(4)">
+          @if(isVisible[4] === true){
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+          } @else {
+          <span class="material-symbols-outlined"> arrow_drop_down </span>
+          }
+
+          <span class="btn-text">Material Complementar</span>
+        </button>
+
+        @if(isVisible[4]) {
+        <p>Abri Material Complementar</p>
+        }
+      </li>
+      
+      <li>
+        <button id="5" class="poppins-regular" (click)="toggleContent(5)">
+          @if(isVisible[5] === true){
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+          } @else {
+          <span class="material-symbols-outlined"> arrow_drop_down </span>
+          }
+
+          <span class="btn-text">Ferramentas Oraculares Utilizadas</span>
+        </button>
+
+        @if(isVisible[5]) {
+        <p>Abri Ferramentas Oraculares Utilizadas</p>
+        }
+      </li>
+      
+      <li>
+        <button id="6" class="poppins-regular" (click)="toggleContent(6)">
+          @if(isVisible[6] === true){
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+          } @else {
+          <span class="material-symbols-outlined"> arrow_drop_down </span>
+          }
+
+          <span class="btn-text">Ética Profissional</span>
+        </button>
+
+        @if(isVisible[6]) {
+        <p>Abri Ética Profissional</p>
+        }
+      </li>
+
+    </ul>
+  </div>
+</section>
