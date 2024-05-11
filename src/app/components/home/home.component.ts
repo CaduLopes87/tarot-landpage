@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from './header/header.component';
-import { PresentationComponent } from './presentation/presentation.component';
-import { CatalogComponent } from './catalog/catalog.component';
-import { CommonQuestionsComponent } from './common-questions/common-questions.component';
+import { HeaderComponent } from './components/header/header.component';
+import { PresentationComponent } from './components/presentation/presentation.component';
+import { CatalogComponent } from './components/catalog/catalog.component';
+import { CommonQuestionsComponent } from './components/common-questions/common-questions.component';
 
 @Component({
   selector: 'app-home',

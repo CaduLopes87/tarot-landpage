@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ToggleButtonInterface } from '../../../interfaces/toggle-button-content';
+import { ToggleButtonInterface } from '../../../../interfaces/toggle-button-content';
 
 @Component({
   selector: 'app-common-questions',
