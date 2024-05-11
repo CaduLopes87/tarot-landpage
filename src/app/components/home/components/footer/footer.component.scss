@@ -1,0 +1,41 @@
+@import "../../../../../color-variables.scss";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 128px;
+  padding-bottom: 32px;
+
+  img {
+    margin-bottom: 48px;
+  }
+
+  h3 {
+    width: 65vw;
+
+    font-size: 3em;
+    text-align: center;
+    font-weight: normal;
+
+    margin-bottom: 164px;
+  }
+
+  .social-medias {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+
+    a {
+      color: $text-primary;
+      font-size: 1.2rem;
+    }
+
+    .phone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
