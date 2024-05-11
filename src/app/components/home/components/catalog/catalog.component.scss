@@ -11,6 +11,8 @@
   .catalog-card {
     width: 23vw;
     min-width: 300px;
+    min-height: 400px;
+
     padding: 24px;
     font-size: 0.9rem;
 
@@ -27,6 +29,21 @@
     a {
       text-align: start;
       color: $text-primary;
+    }
+
+  }
+
+  .first {
+    p {
+      margin-bottom: 32px;
+    }
+
+    ul {
+      margin-bottom: 32px;
+
+      li{
+        margin-bottom: 22px;
+      }
     }
   }
 
