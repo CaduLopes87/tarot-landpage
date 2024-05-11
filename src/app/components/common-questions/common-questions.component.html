@@ -3,7 +3,6 @@
 
   <div class="doubts-list">
     <ul>
-
       <li>
         <button id="1" class="poppins-regular" (click)="toggleContent(1)">
           @if(isVisible[1] === true){
@@ -16,7 +15,65 @@
         </button>
 
         @if(isVisible[1]) {
-        <p>Abri Como funciona?</p>
+        <ul class="question-item poppins-regular">
+          <li>
+            <span class="material-symbols-outlined"> check_box </span>
+            <p>
+              A consulta é feita pelo <b>whatsapp</b> por meio de
+              <span class="underline"
+                >fotos das cartas e áudios ou textos da interpretação
+                delas.</span
+              >
+            </p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> check_box </span>
+            <p>
+              A tiragem acontece em
+              <span class="underline negrito"
+                >horário agendado e só é confirmada após o envio do comprovante
+                de pagamento.</span
+              >
+            </p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> check_box </span>
+            <p>
+              Não é necessário estar online no momento da tiragem. Você pode me
+              enviar as perguntas e contexto antes do horário agendado e, se
+              tiver qualquer dúvida sobre as cartas tiradas ou sobre a
+              explicação, pode mandar depois que eu respondo.
+            </p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> check_box </span>
+            <p>
+              Se quiser <i>atendimento imediato</i>, espere eu
+              <span class="underline negrito"
+                >confirmar se tenho horário disponível.</span
+              >
+              Não envie o pagamento antes!
+            </p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> check_box </span>
+            <div>
+              <p>
+                Em caso de <span class="underline">desistência</span> para
+                atendimentos previamente agendados, deverá ser comunicado 12h
+                antes do horário marcado, com estorno de 50% do valor enviado.
+              </p>
+              <p>
+                Agradeço desde já a compreensão e apoio. Estou à disposição para
+                eventuais <span class="underline">dúvidas.</span>
+              </p>
+            </div>
+          </li>
+        </ul>
         }
       </li>
 
@@ -32,10 +89,25 @@
         </button>
 
         @if(isVisible[2]) {
-        <p>Abri Formas de Pagamento</p>
+        <ul class="question-item poppins-regular">
+          <li>
+            <span class="material-symbols-outlined"> monetization_on </span>
+            <p>À vista no <b>pix</b></p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> monetization_on </span>
+            <p class="negrito">Transferência bancária</p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> monetization_on </span>
+            <p class="negrito">cartão de crédito ou débito (em breve)</p>
+          </li>
+        </ul>
         }
       </li>
-      
+
       <li>
         <button id="3" class="poppins-regular" (click)="toggleContent(3)">
           @if(isVisible[3] === true){
@@ -48,10 +120,24 @@
         </button>
 
         @if(isVisible[3]) {
-        <p>Abri Dados Necessários</p>
+        <ul class="question-item poppins-regular">
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+            <p>Nome Completo.</p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+            <p>
+              E a depender da leitura escolhida, também precisarei deste mesmo
+              dado da pessoa que você quer analisar. Como, por exemplo, em
+              leituras com a temática de amor, amizade ou parcerias.
+            </p>
+          </li>
+        </ul>
         }
       </li>
-      
+
       <li>
         <button id="4" class="poppins-regular" (click)="toggleContent(4)">
           @if(isVisible[4] === true){
@@ -64,10 +150,21 @@
         </button>
 
         @if(isVisible[4]) {
-        <p>Abri Material Complementar</p>
+        <ul class="question-item poppins-regular">
+          <li>
+            <span class="material-symbols-outlined"> menu_book </span>
+            <p>
+              Ofereço para as consultas de
+              <b>análise aprofundada e acompanhamento mensal</b> a possibilidade
+              de você adquirir material complementar no formato de PDF para
+              facilitar sua revisão e consulta aos direcionamentos e conselhos
+              passados, mediante uma taxa adicional de R$19.
+            </p>
+          </li>
+        </ul>
         }
       </li>
-      
+
       <li>
         <button id="5" class="poppins-regular" (click)="toggleContent(5)">
           @if(isVisible[5] === true){
@@ -80,10 +177,26 @@
         </button>
 
         @if(isVisible[5]) {
-        <p>Abri Ferramentas Oraculares Utilizadas</p>
+        <ul class="question-item poppins-regular">
+          <li>
+            <span class="material-symbols-outlined"> playing_cards </span>
+            <p>
+              Para realização das consultas, utilizo como ferramentas principais
+              o tarô & o baralho cigano.
+            </p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> playing_cards </span>
+            <p>
+              Além disso, faço uso de outros oráculos complementares para
+              aconselhamento, a depender da consulta escolhida.
+            </p>
+          </li>
+        </ul>
         }
       </li>
-      
+
       <li>
         <button id="6" class="poppins-regular" (click)="toggleContent(6)">
           @if(isVisible[6] === true){
@@ -96,10 +209,49 @@
         </button>
 
         @if(isVisible[6]) {
-        <p>Abri Ética Profissional</p>
+        <ul class="question-item poppins-regular">
+          <li>
+            <span class="material-symbols-outlined"> gavel </span>
+            <p>
+              <b>NÃO</b> abro cartas para assuntos relacionados a morte, vidas
+              passadas ou diagnósticos de doenças.
+            </p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> gavel </span>
+            <p>
+              O que é tratado na consulta fica na consulta. Confidencialidade é
+              a chave.
+            </p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> gavel </span>
+            <p>
+              O que é tratado na consulta fica na consulta, confidencialidade é
+              a chave.
+            </p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> gavel </span>
+            <p>
+              Não abordo previsões acerca de assuntos que possam causar dano ao
+              consulente ou interferir em sua autonomia.
+            </p>
+          </li>
+
+          <li>
+            <span class="material-symbols-outlined"> gavel </span>
+            <p>
+              A leitura oracular é sim de auto ajuda e terapêutica, mas não
+              substitui acompanhamento psicológico, psiquiátrico ou médico.
+            </p>
+          </li>
+        </ul>
         }
       </li>
-
     </ul>
   </div>
 </section>
