@@ -3,6 +3,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { PresentationComponent } from './components/presentation/presentation.component';
 import { CatalogComponent } from './components/catalog/catalog.component';
 import { CommonQuestionsComponent } from './components/common-questions/common-questions.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-home',
@@ -14,6 +15,7 @@ import { CommonQuestionsComponent } from './components/common-questions/common-q
     CatalogComponent,
     PresentationComponent,
     CommonQuestionsComponent,
+    FooterComponent
   ],
 })
 export class HomeComponent {}
