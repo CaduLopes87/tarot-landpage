@@ -27,15 +27,30 @@
     justify-content: space-between;
     width: 90vw;
 
-    a {
-      color: $text-primary;
-      font-size: 1.2rem;
-    }
-
-    .phone {
+    div {
       display: flex;
       justify-content: center;
       align-items: center;
+      gap: 4px;
+      
+      i {
+        font-weight: 500;
+        font-size: 1.8rem;
+      }
+  
+      a {
+        color: $text-primary;
+        font-size: 1.2rem;
+        text-decoration: none;
+      }
+
+    }
+    
+    .phone, .instagram {
+      i {
+        font-weight: 500;
+        font-size: 2rem;
+      }
     }
   }
 }
