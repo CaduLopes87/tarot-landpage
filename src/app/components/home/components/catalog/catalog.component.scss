@@ -2,7 +2,7 @@
 
 .catalog {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
 
@@ -54,5 +54,11 @@
     h2 {
         width: 100%;
     }
+  }
+}
+
+@media (max-width: 880px){
+  .catalog {
+    margin-bottom: 0;
   }
 }

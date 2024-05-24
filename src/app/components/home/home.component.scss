@@ -12,3 +12,12 @@
 
     gap: 64px;
 }
+
+@media (max-width: 880px) {
+    .presentation-questions {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0;
+    }
+}
